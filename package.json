@@ -1,0 +1,14 @@
+{
+  "name": "shared-memory-buffer",
+  "version": "0.0.1",
+  "description": "A module for Nodejs that implements shared memory between processes by identifier name.",
+  "gypfile": true,
+  "author": "Vladimir Merk (vladimir.merk.fe@yandex.com)",
+  "license": "MIT",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "dependencies": {
+    "node-addon-api": "^1.6.3"
+  }
+}
